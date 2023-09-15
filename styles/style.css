@@ -119,7 +119,7 @@
   color: #6A6D78;
   font-size: 1.31rem;
 }
-
+/* scherm kleiner dan 1000, 900 of 600px = minder kaartjes op het scherm */
 @media screen and (max-width: 1000px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 3) - 9px);
